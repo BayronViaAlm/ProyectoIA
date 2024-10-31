@@ -1,4 +1,3 @@
-package ProyectoIA;
 public class Pair<E, D> {  
     private E sigParada;   
     private D distancia;   

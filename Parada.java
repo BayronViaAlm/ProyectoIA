@@ -1,4 +1,3 @@
-package ProyectoIA;
 import java.util.ArrayList;
 
 class Parada {
