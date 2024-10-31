@@ -22,3 +22,10 @@ D;CallaoD;-;-;2;<Tribunales,->:<Facultad de medicina>;false;false;false
 D;Tribunales;-;-;2;<9 de Julio,->:<CallaoD,->;true;true;false
 D;9 de Julio;-;-;4;<Tribunales,->:<Carlos Pellegrini,->:<Diagonal Norte,-><Catedral,->;false;false;false
 D;Catedral;-;-;3;<9 de Julio,->:<Perú,->:<Bolívar,->;true;true;false
+
+E;Pichincha;x;y;1;<Entre Ríos,->;false;false;false
+E;Entre Ríos;x;y;2;<Pichincha,->:<San José>;false;false;false
+E;San José;x;y;2;<Entre Ríos,->:<IndependenciaE,->;false;false;false
+E;IndependenciaE;x;y;3;<San José,->:<IndependenciaC,->:<Belgrano,->;true;false;true
+E;Belgrano;x;y;2;<IndependenciaE,->:<Bolívar,->;false;false;false
+E;Bolívar;x;y;2;<Belgrano,->:<Catedral,->;true;false;false
