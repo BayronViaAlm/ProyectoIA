@@ -1,10 +1,24 @@
-D;Facultad de medicina;-;-;1;<CallaoD,->;true;true;false
-D;CallaoD;-;-;2;<Tribunales,->:<Facultad de medicina>;false;false;false
-D;Tribunales;-;-;2;<9 de Julio,->:<CallaoD,->;true;true;false
-D;9 de Julio;-;-;4;<Tribunales,->:<Carlos Pellegrini,->:<Diagonal Norte,-><Catedral,->;false;false;false
-D;Catedral;-;-;3;<9 de Julio,->:<Perú,->:<Bolívar,->;true;true;false
+Letra_linea;posX;posY;n_conexiones;<conexion1,d>:<conexion2,d>;tiene_baño;tiene_minusvalía;tiene_atención_al_cliente
+
+B;Pasteur;x;y;1;<CallaoB,d>;true;false;false
+B;CallaoB;x;y;2;<Pasteur,d>:<Uruguay,d>;true;false;false
+B;Uruguay;x;y;2;<CallaoB,d>:<Carlos Pellegrini,d>;true;true;false
+B;Carlos Pellegrini;x;y;4;<Uruguay,d>:<Florida,d>:<9 de Julio,d>:<Diagonal Norte,d>;false;false;false;
+B;Florida;x;y;2;<Carlos Pellegrini,d>:<Leandro N. Alem,d>;true;false;false
+B;Leandro N. Alem;x;y;1;<Florida,d>;true;false;false
+
+C;Diagonal Norte;;x;y;4;<Lavalle,d>:<Avenida de Mayo,d>:<9 de Julio,d>:<Carlos Pellegrini,d>;false;false;false
+C;Lavalle;;x;y;2;<General San Martín,d>:<Diagonal Norte,d>:false;false;false
+C;General San Martín;;x;y;2;<Retiro,d>:<Lavalle,d>;false;false;false
+C;Retiro;x;y;1;<General San Martín,d>;true;false;false
 C;Constitución;-;-;1;<San Juan,->;true;false;false
 C;San Juan;-;-;2;<Constitución,->:<IndependenciaC,->;false;false;false
 C;IndependenciaC;-;-;3;<IndependenciaE,->:<San Juan,->:<Moreno,->;false;false;false
 C;Moreno;-;-;2;<IndependenciaC,->:<Avenida de Mayo,->;false;false;false
 C;Avenida de Mayo;-;-;3;<Moreno,->:<Lima,->:<Diagonal Norte,->;false;false;true
+
+D;Facultad de medicina;-;-;1;<CallaoD,->;true;true;false
+D;CallaoD;-;-;2;<Tribunales,->:<Facultad de medicina>;false;false;false
+D;Tribunales;-;-;2;<9 de Julio,->:<CallaoD,->;true;true;false
+D;9 de Julio;-;-;4;<Tribunales,->:<Carlos Pellegrini,->:<Diagonal Norte,-><Catedral,->;false;false;false
+D;Catedral;-;-;3;<9 de Julio,->:<Perú,->:<Bolívar,->;true;true;false
