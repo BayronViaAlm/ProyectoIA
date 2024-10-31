@@ -1,5 +1,15 @@
 Letra_linea;posX;posY;n_conexiones;<conexion1,d>:<conexion2,d>;tiene_baño;tiene_minusvalía;tiene_atención_al_cliente
 
+A;Alberti;x;y;1;<Pasco,d>;false;false;false
+A;Pasco;x;y;2;<Alberti,d>:<Congreso,d>;false;false;false
+A;Congreso;x;y;2;<Pasco,d>:<Sáenz Peña,d>;false;false;false
+A;Congreso;x;y;2;<Pasco,d>:<Sáenz Peña,d>;false;false;false
+A;Sáenz Peña;x;y;2;<Congreso,d>:<Lima,d>;false;false;false
+A;Lima;x;y;3;<Sáenz Peña,d>:<Avenida de Mayo,d>:<Piedras,d>;false;false;false
+A;Piedras;x;y;2;<Lima,d>:<Perú,d>;false;false;false
+A;Perú;x;y;4;<Piedras,d>:<Catedral,d>:<Bolívar,d>:<Plaza de Mayo,d>;false;false;false
+A;Plaza de Mayo;x;y;1;<Perú,d>;true;false;false
+
 B;Pasteur;x;y;1;<CallaoB,d>;true;false;false
 B;CallaoB;x;y;2;<Pasteur,d>:<Uruguay,d>;true;false;false
 B;Uruguay;x;y;2;<CallaoB,d>:<Carlos Pellegrini,d>;true;true;false
