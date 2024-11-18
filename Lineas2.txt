@@ -1,0 +1,34 @@
+A;Alberti;0.0;0.0;1;<Pasco,0.5>;false;false;false
+A;Pasco;0.5;0.0;2;<Alberti,0.5>:<Congreso,0.6>;false;false;false
+A;Congreso;1.1;0.0;2;<Pasco,0.6>:<Sáenz Peña,0.5>;false;false;false
+A;Sáenz Peña;1.6;0.0;2;<Congreso,0.5>:<Lima,0.7>;false;false;false
+A;Lima;2.3;0.0;3;<Sáenz Peña,0.7>:<Avenida de Mayo,0.4>:<Piedras,0.6>;false;false;false
+A;Piedras;2.9;0.0;2;<Lima,0.6>:<Perú,0.5>;false;false;false
+A;Perú;3.4;0.0;4;<Piedras,0.5>:<Catedral,0.3>:<Bolívar,0.4>:<Plaza de Mayo,0.7>;false;false;false
+A;Plaza de Mayo;4.1;0.0;1;<Perú,0.7>;true;false;false
+B;Pasteur;0.0;1.0;1;<CallaoB,0.6>;true;false;false
+B;CallaoB;0.6;1.0;2;<Pasteur,0.6>:<Uruguay,0.5>;true;false;false
+B;Uruguay;1.1;1.0;2;<CallaoB,0.5>:<Carlos Pellegrini,0.7>;true;true;false
+B;Carlos Pellegrini;1.8;1.0;4;<Uruguay,0.7>:<Florida,0.5>:<9 de Julio,0.4>:<Diagonal Norte,0.6>;false;false;false
+B;Florida;2.3;1.0;2;<Carlos Pellegrini,0.5>:<Leandro N. Alem,0.6>;true;false;false
+B;Leandro N. Alem;2.9;1.0;1;<Florida,0.6>;true;false;false
+C;Diagonal Norte;1.8;1.5;4;<Lavalle,0.4>:<Avenida de Mayo,0.3>:<9 de Julio,0.5>:<Carlos Pellegrini,0.6>;false;false;false
+C;Lavalle;1.4;1.5;2;<General San Martín,0.8>:<Diagonal Norte,0.4>;false;false;false
+C;General San Martín;0.6;1.5;2;<Retiro,0.9>:<Lavalle,0.8>;false;false;false
+C;Retiro;0.0;1.5;1;<General San Martín,0.9>;true;false;false
+C;Constitución;3.0;1.5;1;<San Juan,1.0>;true;false;false
+C;San Juan;3.0;2.5;2;<Constitución,1.0>:<IndependenciaC,0.5>;false;false;false
+C;IndependenciaC;3.0;3.0;3;<IndependenciaE,0.5>:<San Juan,0.5>:<Moreno,0.7>;false;false;false
+C;Moreno;3.0;3.7;2;<IndependenciaC,0.7>:<Avenida de Mayo,0.3>;false;false;false
+C;Avenida de Mayo;2.7;4.0;3;<Moreno,0.3>:<Lima,0.2>:<Diagonal Norte,0.3>;false;false;true
+D;Facultad de Medicina;0.0;2.0;1;<CallaoD,0.8>;true;true;false
+D;CallaoD;0.8;2.0;2;<Tribunales,0.6>:<Facultad de Medicina,0.8>;false;false;false
+D;Tribunales;1.4;2.0;2;<9 de Julio,0.5>:<CallaoD,0.6>;true;true;false
+D;9 de Julio;1.8;2.0;4;<Tribunales,0.5>:<Carlos Pellegrini,0.4>:<Diagonal Norte,0.5>:<Catedral,0.6>;false;false;false
+D;Catedral;2.4;2.0;3;<9 de Julio,0.6>:<Perú,0.3>:<Bolívar,0.4>;true;true;false
+E;Pichincha;4.0;3.0;1;<Entre Ríos,0.7>;false;false;false
+E;Entre Ríos;3.3;3.0;2;<Pichincha,0.7>:<San José,0.6>;false;false;false
+E;San José;2.7;3.0;2;<Entre Ríos,0.6>:<IndependenciaE,0.5>;false;false;false
+E;IndependenciaE;2.2;3.0;3;<San José,0.5>:<IndependenciaC,0.5>:<Belgrano,0.4>;true;false;true
+E;Belgrano;1.8;3.0;2;<IndependenciaE,0.4>:<Bolívar,0.5>;false;false;false
+E;Bolívar;1.3;3.0;2;<Belgrano,0.5>:<Catedral,0.6>;true;false;false
