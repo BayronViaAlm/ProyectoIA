@@ -1,25 +1,18 @@
-import java.util.*;
+import java.util.ArrayList;
 
-
-Class Algoritmo{
-
-    ArrayList<Parada> paradas;
+public class Algoritmo {
+    ArrayList<ParadaB> paradas;
     String origen;
     String destino;
 
-    public Algoritmo(ArrayList<Paradas> paradas, String origen, String destino){
+    public Algoritmo(ArrayList<ParadaB> paradas, String origen, String destino){
         this.paradas = paradas;
         this.origen = origen;
         this.destino = destino;
     }
 
-    public H(Parada origen, Parada destino){
-        while(true){
-            String nombre = paradas.conexionesStr[i];
-            paradas.conexiones.get(nombre);
-        }
+    public double heuristico(ParadaB origen, ParadaB destino){
+        return Math.sqrt(Math.pow(origen.posX - destino.posX, 2) + Math.pow(origen.posY - destino.posY, 2));
     }
-
-
-
+    
 }
