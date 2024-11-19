@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -12,49 +13,45 @@ public class Main {
 
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(";");
-                if (parts.length < 8) {
-                    System.out.println("Formato incorrecto: " + line);
-                    continue;
-                }
 
-                // Parsear atributos
-                String linea = parts[0];
-                String nombre = parts[1];
-                double posX = Double.parseDouble(parts[2]);
-                double posY = Double.parseDouble(parts[3]);
-                String conexionesStr = parts[5];
-                boolean bano = Boolean.parseBoolean(parts[6]);
-                boolean minusvalido = Boolean.parseBoolean(parts[7]);
-                boolean atencionPasajero = Boolean.parseBoolean(parts[8]);
+                try {
+                    // Parsear atributos
+                    String linea = parts[0];
+                    String nombre = parts[1];
+                    double posX = Double.parseDouble(parts[2]);
+                    double posY = Double.parseDouble(parts[3]);
+                    int numConexiones = Integer.parseInt(parts[4]);
+                    String conexionesStr = parts[5];
+                    boolean bano = Boolean.parseBoolean(parts[6]);
+                    boolean minusvalido = Boolean.parseBoolean(parts[7]);
+                    boolean atencionPasajero = Boolean.parseBoolean(parts[8]);
 
-                // Crear parada
-                Parada parada = new Parada(nombre, linea, posX, posY, new ArrayList<>(), bano, minusvalido, atencionPasajero);
-                paradas.add(parada);
+                    // Crear parada
+                    Parada parada = new Parada(nombre, linea, posX, posY, new ArrayList<>(), bano, minusvalido, atencionPasajero);
 
-                // Procesar conexiones iniciales como cadenas
-                if (conexionesStr != null && !conexionesStr.isEmpty()) {
-                    String[] conexiones = conexionesStr.split(":");
-                    for (String conexion : conexiones) {
-                        try {
-                            String[] conexionParts = conexion.replace("<", "").replace(">", "").split(",");
-                            String destino = conexionParts[0];
-                            double distancia = Double.parseDouble(conexionParts[1]);
-                            parada.conexiones.add(new Pair<>(new Parada(destino, "", 0, 0, null, false, false, false), distancia));
-                        } catch (Exception e) {
-                            System.err.println("Error procesando conexión: " + conexion);
-                        }
+                    // Procesar conexiones
+                    if (numConexiones > 0 && conexionesStr != null && !conexionesStr.isEmpty()) {
+                        conexionesStr = conexionesStr.replace("<", "").replace(">", ""); // Eliminar los <>
+                        parada.conexionesStr = conexionesStr.split(":"); // Separar los nombres de las conexiones
                     }
+
+                    paradas.add(parada);
+                } catch (Exception e) {
+                    System.out.println("Error procesando la línea: " + line + " -> " + e.getMessage());
                 }
             }
 
             // Asignar conexiones reales
             for (Parada parada : paradas) {
                 ArrayList<Pair<Parada, Double>> nuevasConexiones = new ArrayList<>();
-                for (Pair<Parada, Double> conexion : parada.conexiones) {
-                    for (Parada destino : paradas) {
-                        if (conexion.getSigParada().nombre.equals(destino.nombre)) {
-                            nuevasConexiones.add(new Pair<>(destino, conexion.getDistancia()));
-                            break;
+                if (parada.conexionesStr != null) {
+                    for (String conexionNombre : parada.conexionesStr) {
+                        for (Parada destino : paradas) {
+                            if (destino.nombre.equals(conexionNombre)) {
+                                double distancia = Parada.calcularDistancia(parada, destino);
+                                nuevasConexiones.add(new Pair<>(destino, distancia));
+                                break;
+                            }
                         }
                     }
                 }
@@ -71,7 +68,7 @@ public class Main {
         for (Parada parada : paradas) {
             System.out.println("Parada: " + parada.nombre + ", Línea: " + parada.linea + ", Conexiones:");
             for (Pair<Parada, Double> conexion : parada.conexiones) {
-                System.out.println("  -> " + conexion.getSigParada().nombre + " (" + conexion.getDistancia() + " km)");
+                System.out.println("  -> " + conexion.getSigParada().nombre + " (" + conexion.getDistancia() + " m)");
             }
         }
 

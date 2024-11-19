@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -30,14 +31,14 @@ class Parada {
         this.atencionPasajero = atencionPasajero;
     }
 
-    // Método para calcular la distancia entre dos paradas
+    // Método para calcular la distancia entre dos paradas (en metros)
     public static double calcularDistancia(Parada p1, Parada p2) {
         return Math.sqrt(Math.pow(p2.posX - p1.posX, 2) + Math.pow(p2.posY - p1.posY, 2));
     }
 
-    // Método para calcular el tiempo de trayecto (velocidad en km/h)
+    // Método para calcular el tiempo de trayecto (velocidad en m/s)
     public static double calcularTiempo(double distancia, double velocidad) {
-        return distancia / velocidad; // Tiempo en horas
+        return distancia / velocidad; // Tiempo en segundos
     }
 
     @Override

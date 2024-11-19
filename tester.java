@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +10,7 @@ public class tester {
         Parada inicio = null, destino = null;
         for (Parada p : paradas) {
             if (p.nombre.equals("Retiro")) inicio = p;
-            if (p.nombre.equals("Catedral")) destino = p;
+            if (p.nombre.equals("Facultad de medicina")) destino = p;
         }
 
         if (inicio != null && destino != null) {
