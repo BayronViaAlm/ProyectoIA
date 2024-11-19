@@ -1,0 +1,9 @@
+Cosas por añadir:
+1. Características de cada parada:
+    - Baño
+    - Oficina atención al pasajero
+    - Minúsvalidos
+2. Tiempo de llegada
+3. Distancia total
+4. Pintar recorrido
+5. Número de transbordos
