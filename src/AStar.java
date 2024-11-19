@@ -1,6 +1,7 @@
+package src;
 import java.util.*;
 
-class AStar {
+public class AStar {
 
     // Método para encontrar el camino óptimo
     public static List<Parada> encontrarCamino(Parada inicio, Parada destino, double velocidad) {

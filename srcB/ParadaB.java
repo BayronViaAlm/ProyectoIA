@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package srcB;
 import java.util.Objects;
 
 class ParadaB {
@@ -7,7 +7,7 @@ class ParadaB {
     int posX;
     int posY;
     int n_conexiones;
-    ArrayList<String> conexiones;
+    String[] conexiones;
     boolean hasServicios;
     boolean hasMinusvalia;
     boolean hasAtencion;
@@ -18,7 +18,7 @@ class ParadaB {
     public String[] conexionesStr;
 
     // Constructor
-    public Parada(String nombre, String linea, int posX, int posY, int n_conexiones,
+    public ParadaB(String nombre, String linea, int posX, int posY, int n_conexiones,
                   String[] conexiones,
                   boolean hasServicios, boolean hasMinusvalia, boolean hasAtencion) {
         this.nombre = nombre;
@@ -32,15 +32,15 @@ class ParadaB {
     }
 
     // Método para calcular la distancia entre dos paradas
-    public static double calcularDistancia(Parada p1, Parada p2) {
+    public static double calcularDistancia(ParadaB p1, ParadaB p2) {
         return Math.sqrt(Math.pow(p2.posX - p1.posX, 2) + Math.pow(p2.posY - p1.posY, 2));
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Parada)) return false;
-        Parada parada = (Parada) o;
+        if (!(o instanceof ParadaB)) return false;
+        ParadaB parada = (ParadaB) o;
         return nombre.equals(parada.nombre) && linea.equals(parada.linea);
     }
 

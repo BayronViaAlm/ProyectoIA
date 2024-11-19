@@ -1,13 +1,14 @@
+package src;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
-class Parada {
-    String nombre;
-    String linea;
-    double posX;
-    double posY;
-    ArrayList<Pair<Parada, Double>> conexiones;
+public class Parada {
+    public String nombre;
+    public String linea;
+    public double posX;
+    public double posY;
+    public ArrayList<Pair<Parada, Double>> conexiones;
     boolean bano;
     boolean minusvalido;
     boolean atencionPasajero;

@@ -1,17 +1,21 @@
+package src;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static ArrayList<Parada> cargarParadas(String fileName) {
         ArrayList<Parada> paradas = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
-            String line;
+        try {
+            // Leer todas las líneas del archivo usando UTF-8
+            List<String> lineas = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
 
-            while ((line = br.readLine()) != null) {
+            for (String line : lineas) {
                 String[] parts = line.split(";");
 
                 try {
