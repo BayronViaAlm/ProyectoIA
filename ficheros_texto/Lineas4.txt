@@ -1,3 +1,4 @@
+Linea;Nombre;posX;posY;nConexiones;Conexion1(Nombre,Distancia):...:ConexionN;sBanho;sMinusvalido;sAtencion
 A;Alberti;20;610;1;<Pasco,300>;false;false;false
 A;Pasco;80;610;2;<Alberti,300>:<Congreso,500>;false;false;false
 A;Congreso;140;610;2;<Pasco,500>:<Sáenz Peña,450>;false;false;false

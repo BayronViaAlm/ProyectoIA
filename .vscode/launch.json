@@ -1,8 +1,20 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
-
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "srcC.app.Main",
+      "projectName": "ProyectoIA_9d64c05"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "P2.com_algoritmo.Main",
+      "projectName": "ProyectoIA_9d64c05"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",

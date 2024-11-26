@@ -11,7 +11,7 @@ public class AStar {
     public static final double TIEMPO_ACELERACION_DESACELERACION = 30.0;
 
     // Método para encontrar el camino óptimo entre dos paradas
-    public static List<Parada> encontrarCamino(Parada inicio, Parada destino, double velocidad) {
+    public static List<Parada> encontrarCamino(Parada inicio, Parada destino) {
         PriorityQueue<Parada> openSet = new PriorityQueue<>(Comparator.comparingDouble(p -> p.fScore));
         Set<Parada> closedSet = new HashSet<>();
 
@@ -36,7 +36,7 @@ public class AStar {
             for (Pair<Parada, Double> conexion : actual.conexiones) {
                 Parada vecino = conexion.getSigParada();
                 double distancia = conexion.getDistancia();
-                double tentativeGScore = actual.gScore + Parada.calcularTiempo(distancia, velocidad);
+                double tentativeGScore = actual.gScore + distancia;
 
                 // Ignorar si el vecino ya está evaluado y no es un mejor camino
                 if (closedSet.contains(vecino) && tentativeGScore >= vecino.gScore) {
@@ -93,8 +93,10 @@ public class AStar {
 
     // Método para calcular el tiempo total de una ruta en formato hh:mm
     public static String calcularTiempoTotal(List<Parada> ruta, double velocidad) {
-        double distanciaTotal = calcularDistanciaTotal(ruta) * 1000.0; // Convertir kilómetros a metros
+        double distanciaTotal = calcularDistanciaTotal(ruta);
+        System.out.println("Distancia total:" + distanciaTotal);
         double tiempoViaje = Parada.calcularTiempo(distanciaTotal, velocidad);
+        System.out.println("Tiempo viaje:" + tiempoViaje);
 
         // Tiempo de parada en cada estación (excepto la última)
         double tiempoParadas = (ruta.size() - 1) * TIEMPO_PARADA_ESTACION;
@@ -108,6 +110,6 @@ public class AStar {
         int horas = (int) (tiempoTotalSegundos / 3600);
         int minutos = (int) ((tiempoTotalSegundos % 3600) / 60);
 
-        return String.format("%02dhr:%02dmm", horas, minutos);
+        return String.format("%02dhr:%02dmn", horas, minutos);
     }
 }
