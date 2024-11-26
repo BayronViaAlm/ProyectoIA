@@ -1,7 +1,7 @@
 A;Alberti;20;610;1;<Pasco,300>;false;false;false
-A;Pasco;80;610;2;<Alberti,300>:<Congreso,350>;false;false;false
-A;Congreso;140;610;2;<Pasco,350>:<Sáenz Peña,400>;false;false;false
-A;Sáenz Peña;200;610;2;<Congreso,400>:<Lima,450>;false;false;false
+A;Pasco;80;610;2;<Alberti,300>:<Congreso,500>;false;false;false
+A;Congreso;140;610;2;<Pasco,500>:<Sáenz Peña,450>;false;false;false
+A;Sáenz Peña;200;610;2;<Congreso,450>:<Lima,450>;false;false;false
 A;Lima;260;610;3;<Sáenz Peña,450>:<Avenida de Mayo,300>:<Piedras,550>;false;false;false
 A;Piedras;355;610;2;<Lima,550>:<Perú,400>;false;false;false
 A;Perú;395;610;4;<Piedras,400>:<Catedral,200>:<Bolívar,250>:<Plaza de Mayo,300>;false;false;false
