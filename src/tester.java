@@ -1,13 +1,12 @@
 package src;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class tester {
     public static void main(String[] args) {
         // Crear datos de prueba cargando de Lineas.txt
-        ArrayList<Parada> paradas = Main.cargarParadas("ficheros_texto/Lineas2.txt");
+        ArrayList<Parada> paradas = Main.cargarParadas("ficheros_texto/Lineas4.txt");
 
         // Encontrar paradas específicas para la prueba
         Parada inicio = null, destino = null;

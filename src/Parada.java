@@ -9,9 +9,9 @@ public class Parada {
     public double posX;
     public double posY;
     public ArrayList<Pair<Parada, Double>> conexiones;
-    boolean bano;
-    boolean minusvalido;
-    boolean atencionPasajero;
+    public boolean bano;
+    public boolean minusvalido;
+    public boolean atencionPasajero;
 
     // A* variables
     double gScore = Double.MAX_VALUE; // Costo desde el inicio

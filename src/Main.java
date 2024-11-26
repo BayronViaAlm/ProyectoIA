@@ -35,8 +35,8 @@ public class Main {
 
                     // Procesar conexiones
                     if (numConexiones > 0 && conexionesStr != null && !conexionesStr.isEmpty()) {
-                        conexionesStr = conexionesStr.replace("<", "").replace(">", ""); // Eliminar los <>
-                        parada.conexionesStr = conexionesStr.split(":"); // Separar los nombres de las conexiones
+                        conexionesStr = conexionesStr.replace("<", "").replace(">", ""); // Eliminar los < >
+                        parada.conexionesStr = conexionesStr.split(":"); // Separar las conexiones por ':'
                     }
 
                     paradas.add(parada);
@@ -45,16 +45,22 @@ public class Main {
                 }
             }
 
-            // Asignar conexiones reales
+            // Asignar conexiones reales con distancias
             for (Parada parada : paradas) {
                 ArrayList<Pair<Parada, Double>> nuevasConexiones = new ArrayList<>();
                 if (parada.conexionesStr != null) {
-                    for (String conexionNombre : parada.conexionesStr) {
-                        for (Parada destino : paradas) {
-                            if (destino.nombre.equals(conexionNombre)) {
-                                double distancia = Parada.calcularDistancia(parada, destino);
-                                nuevasConexiones.add(new Pair<>(destino, distancia));
-                                break;
+                    for (String conexion : parada.conexionesStr) {
+                        String[] conexionParts = conexion.split(",");
+                        if (conexionParts.length == 2) {
+                            String conexionNombre = conexionParts[0];
+                            double distancia = Double.parseDouble(conexionParts[1]);
+
+                            // Buscar la parada destino
+                            for (Parada destino : paradas) {
+                                if (destino.nombre.equals(conexionNombre)) {
+                                    nuevasConexiones.add(new Pair<>(destino, distancia));
+                                    break;
+                                }
                             }
                         }
                     }
