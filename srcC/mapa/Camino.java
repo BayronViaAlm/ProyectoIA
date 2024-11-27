@@ -25,6 +25,7 @@ public class Camino {
             Conexion conexion = metro.getConexion(origen, destino);
             if (conexion.esCambioLinea()) {
                 nIntercambios++;
+                continue; // No sumar distancia
             }
             distanciaTotal += conexion.getDistancia();
             System.out.println("origen " + origen.getNombre() + " destino " + destino.getNombre() + " distancia " + conexion.getDistancia());

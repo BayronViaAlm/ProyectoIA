@@ -6,6 +6,13 @@
       "name": "Main",
       "request": "launch",
       "mainClass": "srcC.app.Main",
+      "projectName": "ProyectoIA_a485bb44"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "srcC.app.Main",
       "projectName": "ProyectoIA_9d64c05"
     },
     {
