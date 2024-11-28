@@ -5,22 +5,25 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
-      "mainClass": "srcC.app.Main",
-      "projectName": "ProyectoIA_a485bb44"
+      "mainClass": "srcC.APP.algoritmo.Main",
+      "projectName": "ProyectoIA_a485bb44",
+      "vmArgs": "--module-path srcC/lib/ --add-modules javafx.controls,javafx.fxml -Dprism.order=sw"
     },
     {
       "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "srcC.app.Main",
-      "projectName": "ProyectoIA_9d64c05"
+      "projectName": "ProyectoIA_9d64c05",
+      "vmArgs": "--module-path srcC/lib/ --add-modules javafx.controls,javafx.fxml -Dprism.order=sw"
     },
     {
       "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "P2.com_algoritmo.Main",
-      "projectName": "ProyectoIA_9d64c05"
+      "projectName": "ProyectoIA_9d64c05",
+      "vmArgs": "--module-path srcC/lib/ --add-modules javafx.controls,javafx.fxml -Dprism.order=sw"
     },
     {
       "name": "C/C++ Runner: Debug Session",

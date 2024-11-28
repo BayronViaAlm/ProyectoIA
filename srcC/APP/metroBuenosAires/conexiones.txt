@@ -1,0 +1,34 @@
+A;Alberti;Pasco:A:300
+A;Pasco;Alberti:A:300;Congreso:A:500
+A;Congreso;Pasco:A:500;Sáenz Peña:A:450
+A;Sáenz Peña;Congreso:A:450;Lima:A:450
+A;Lima;Sáenz Peña:A:450;Avenida de Mayo:C:1750;Piedras:A:550
+A;Piedras;Lima:A:550;Perú:A:400
+A;Perú;Piedras:A:400;Catedral:D:1750;Bolívar:E:1750;Plaza de Mayo:A:300
+A;Plaza de Mayo;Perú:A:300
+B;Pasteur;Callao [B]:B:700
+B;Callao [B];Pasteur:B:700;Uruguay:B:600
+B;Uruguay;Callao [B]:B:600;Carlos Pellegrini:B:800
+B;Carlos Pellegrini;Uruguay:B:800;Florida:B:700;9 de Julio:D:1750;Diagonal Norte:C:1750
+B;Florida;Carlos Pellegrini:B:700;Leandro N. Alem:B:700
+B;Leandro N. Alem;Florida:B:700
+C;Constitución;San Juan:C:600
+C;San Juan;Constitución:C:600;Independencia [C]:C:500
+C;Independencia [C];Independencia [E]:E:1750;San Juan:C:500;Moreno:C:500
+C;Moreno;Independencia [C]:C:500;Avenida de Mayo:C:400
+C;Avenida de Mayo;Moreno:C:400;Lima:A:1750;Diagonal Norte:C:400
+C;Diagonal Norte;Lavalle:C:500;Avenida de Mayo:C:400;9 de Julio:D:1750;Carlos Pellegrini:B:1750
+C;Lavalle;General San Martín:C:600;Diagonal Norte:C:500
+C;General San Martín;Retiro:C:700;Lavalle:C:600
+C;Retiro;General San Martín:C:700
+D;Facultad de medicina;Callao [D]:D:700
+D;Callao [D];Tribunales:D:500;Facultad de medicina:D:700
+D;Tribunales;9 de Julio:D:600;Callao [D]:D:500
+D;9 de Julio;Tribunales:D:600;Carlos Pellegrini:B:1750;Diagonal Norte:C:1750;Catedral:D:300
+D;Catedral;9 de Julio:D:300;Perú:A:1750;Bolívar:E:1750
+E;Pichincha;Entre Ríos:E:500
+E;Entre Ríos;Pichincha:E:500;San José:E:300
+E;San José;Entre Ríos:E:300;Independencia [E]:E:300
+E;Independencia [E];San José:E:300;Independencia [C]:C:1750;Belgrano:E:400
+E;Belgrano;Independencia [E]:E:400;Bolívar:E:300
+E;Bolívar;Belgrano:E:300;Catedral:1750:200;Perú:A:1750
