@@ -1,14 +1,16 @@
 package srcC.APP;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import srcC.APP.mapa.Estacion;
 import srcC.APP.mapa.Mapa;
 import srcC.APP.algoritmo.Algoritmo;
 import srcC.APP.algoritmo.Main;
 import srcC.APP.mapa.Camino;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+
 
 import java.util.List;
 
@@ -36,8 +38,12 @@ public class Controlador {
 
     @FXML
     public void initialize() {
-        metroBuenosAires = Main.cargarEstaciones("srcC/metroBuenosAires/estaciones.txt");
-        Main.cargarConexiones("srcC/metroBuenosAires/conexiones.txt", metroBuenosAires);
+        metroBuenosAires = Main.cargarEstaciones("srcC/APP/metroBuenosAires/estaciones.txt");
+        System.out.println("Estaciones cargadas: " + metroBuenosAires.getEstaciones().size());
+        Main.cargarConexiones("srcC/APP/metroBuenosAires/conexiones.txt", metroBuenosAires);
+        for (Estacion estacion : metroBuenosAires.getEstaciones().values()) {
+            System.out.println("Conexiones cargadas: " + metroBuenosAires.getConexiones(estacion).size());
+        }
 
         for (Estacion estacion : metroBuenosAires.getEstaciones().values()) {
             origenBox.getItems().add(estacion.getNombre());

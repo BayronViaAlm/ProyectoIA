@@ -1,0 +1,109 @@
+./
+├── APP/
+│   ├── Controlador.java*
+│   ├── ProyectoIA.jar*
+│   ├── algoritmo/
+│   │   ├── Algoritmo.java*
+│   │   └── Main.java*
+│   ├── mapa/
+│   │   ├── Camino.java*
+│   │   ├── Conexion.java*
+│   │   ├── Estacion.java*
+│   │   ├── Mapa.java*
+│   │   └── Posicion.java*
+│   └── metroBuenosAires/
+│       ├── README.txt*
+│       ├── conexiones.txt*
+│       └── estaciones.txt*
+├── JavaFX/
+│   ├── legal/
+│   │   ├── javafx.base/
+│   │   │   ├── ADDITIONAL_LICENSE_INFO*
+│   │   │   ├── ASSEMBLY_EXCEPTION*
+│   │   │   └── LICENSE*
+│   │   ├── javafx.controls/
+│   │   │   ├── ADDITIONAL_LICENSE_INFO*
+│   │   │   ├── ASSEMBLY_EXCEPTION*
+│   │   │   └── LICENSE*
+│   │   ├── javafx.fxml/
+│   │   │   ├── ADDITIONAL_LICENSE_INFO*
+│   │   │   ├── ASSEMBLY_EXCEPTION*
+│   │   │   └── LICENSE*
+│   │   ├── javafx.graphics/
+│   │   │   ├── ADDITIONAL_LICENSE_INFO*
+│   │   │   ├── ASSEMBLY_EXCEPTION*
+│   │   │   ├── LICENSE*
+│   │   │   ├── jpeg_fx.md*
+│   │   │   └── mesa3d.md*
+│   │   ├── javafx.media/
+│   │   │   ├── ADDITIONAL_LICENSE_INFO*
+│   │   │   ├── ASSEMBLY_EXCEPTION*
+│   │   │   ├── LICENSE*
+│   │   │   ├── directshow.md*
+│   │   │   ├── glib.md*
+│   │   │   ├── gstreamer.md*
+│   │   │   └── libffi.md*
+│   │   ├── javafx.swing/
+│   │   │   ├── ADDITIONAL_LICENSE_INFO*
+│   │   │   ├── ASSEMBLY_EXCEPTION*
+│   │   │   └── LICENSE*
+│   │   └── javafx.web/
+│   │       ├── ADDITIONAL_LICENSE_INFO*
+│   │       ├── ASSEMBLY_EXCEPTION*
+│   │       ├── LICENSE*
+│   │       ├── icu_web.md*
+│   │       ├── libxml2.md*
+│   │       ├── libxslt.md*
+│   │       └── webkit.md*
+│   ├── lib/
+│   │   ├── javafx-swt.jar*
+│   │   ├── javafx.base.jar*
+│   │   ├── javafx.controls.jar*
+│   │   ├── javafx.fxml.jar*
+│   │   ├── javafx.graphics.jar*
+│   │   ├── javafx.media.jar*
+│   │   ├── javafx.properties*
+│   │   ├── javafx.swing.jar*
+│   │   ├── javafx.web.jar*
+│   │   ├── libavplugin-54.so*
+│   │   ├── libavplugin-56.so*
+│   │   ├── libavplugin-57.so*
+│   │   ├── libavplugin-ffmpeg-56.so*
+│   │   ├── libavplugin-ffmpeg-57.so*
+│   │   ├── libavplugin-ffmpeg-58.so*
+│   │   ├── libavplugin-ffmpeg-59.so*
+│   │   ├── libavplugin-ffmpeg-60.so*
+│   │   ├── libdecora_sse.so*
+│   │   ├── libfxplugins.so*
+│   │   ├── libglass.so*
+│   │   ├── libglassgtk3.so*
+│   │   ├── libgstreamer-lite.so*
+│   │   ├── libjavafx_font.so*
+│   │   ├── libjavafx_font_freetype.so*
+│   │   ├── libjavafx_font_pango.so*
+│   │   ├── libjavafx_iio.so*
+│   │   ├── libjfxmedia.so*
+│   │   ├── libjfxwebkit.so*
+│   │   ├── libprism_common.so*
+│   │   ├── libprism_es2.so*
+│   │   └── libprism_sw.so*
+│   └── src.zip*
+├── bin/
+│   └── srcC/
+│       └── srcC/
+│           └── APP/
+│               ├── Controlador.class*
+│               ├── algoritmo/
+│               │   ├── Algoritmo$Nodo.class*
+│               │   ├── Algoritmo.class*
+│               │   └── Main.class*
+│               └── mapa/
+│                   ├── Camino.class*
+│                   ├── Conexion.class*
+│                   ├── Estacion.class*
+│                   ├── Mapa.class*
+│                   └── Posicion.class*
+├── compilador.sh*
+└── estructura.txt*
+
+21 directories, 86 files
