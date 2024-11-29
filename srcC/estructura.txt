@@ -34,7 +34,8 @@
 │   │   │   ├── ASSEMBLY_EXCEPTION*
 │   │   │   ├── LICENSE*
 │   │   │   ├── jpeg_fx.md*
-│   │   │   └── mesa3d.md*
+│   │   │   ├── mesa3d.md*
+│   │   │   └── pipewire.md*
 │   │   ├── javafx.media/
 │   │   │   ├── ADDITIONAL_LICENSE_INFO*
 │   │   │   ├── ASSEMBLY_EXCEPTION*
@@ -73,6 +74,7 @@
 │   │   ├── libavplugin-ffmpeg-58.so*
 │   │   ├── libavplugin-ffmpeg-59.so*
 │   │   ├── libavplugin-ffmpeg-60.so*
+│   │   ├── libavplugin-ffmpeg-61.so*
 │   │   ├── libdecora_sse.so*
 │   │   ├── libfxplugins.so*
 │   │   ├── libglass.so*
@@ -89,21 +91,27 @@
 │   │   └── libprism_sw.so*
 │   └── src.zip*
 ├── bin/
+│   ├── metroBuenosAires/
+│   │   ├── README.txt*
+│   │   ├── conexiones.txt*
+│   │   └── estaciones.txt*
+│   ├── resources/
+│   │   └── interfaz.fxml*
 │   └── srcC/
-│       └── srcC/
-│           └── APP/
-│               ├── Controlador.class*
-│               ├── algoritmo/
-│               │   ├── Algoritmo$Nodo.class*
-│               │   ├── Algoritmo.class*
-│               │   └── Main.class*
-│               └── mapa/
-│                   ├── Camino.class*
-│                   ├── Conexion.class*
-│                   ├── Estacion.class*
-│                   ├── Mapa.class*
-│                   └── Posicion.class*
-├── compilador.sh*
-└── estructura.txt*
+│       └── APP/
+│           ├── Controlador.class*
+│           ├── algoritmo/
+│           │   ├── Algoritmo$Nodo.class*
+│           │   ├── Algoritmo.class*
+│           │   └── Main.class*
+│           └── mapa/
+│               ├── Camino.class*
+│               ├── Conexion.class*
+│               ├── Estacion.class*
+│               ├── Mapa.class*
+│               └── Posicion.class*
+├── estructura.txt*
+└── resources/
+    └── interfaz.fxml*
 
-21 directories, 86 files
+23 directories, 92 files
