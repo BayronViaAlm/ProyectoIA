@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "srcC/JavaFX/lib/**/*.jar"
+    "srcC/JavaFX/lib/**/*.jar",
+    "src/JavaFX/lib/**/*.jar"
   ]
 }

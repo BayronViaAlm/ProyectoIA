@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Directorios
-SOURCE_DIR="srcC"
-BIN_DIR="srcC/bin"
-LIB_DIR="srcC/JavaFX/lib"
-RESOURCES_DIR="srcC/resources"
-DATA_DIR="srcC/APP/metroBuenosAires"
-MAIN_CLASS="srcC.APP.algoritmo.Main"
+SOURCE_DIR="src"
+BIN_DIR="src/bin"
+LIB_DIR="src/JavaFX/lib"
+RESOURCES_DIR="src/resources"
+DATA_DIR="src/APP/metroBuenosAires"
+MAIN_CLASS="src.APP.algoritmo.Main"
 
 # Limpiar y crear el directorio de salida
 echo "Limpiando el directorio de salida..."
@@ -54,7 +54,7 @@ echo "Compilación completada."
 
 # Verificar que los archivos compilados existen
 echo "Verificando archivos compilados..."
-if [ ! -f "$BIN_DIR/srcC/APP/algoritmo/Main.class" ]; then
+if [ ! -f "$BIN_DIR/src/APP/algoritmo/Main.class" ]; then
     echo "Error: Main.class no encontrado."
     exit 1
 fi

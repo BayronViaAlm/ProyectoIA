@@ -1,0 +1,34 @@
+D;9 de Julio;0;0;0;320;750
+A;Alberti;0;0;0;20;610
+C;Avenida de Mayo;0;1;0;300;612
+E;Belgrano;0;0;0;330;470
+E;Bolívar;1;0;0;410;515
+D;Callao [D];0;0;0;175;920
+B;Callao [B];1;0;0;139;785
+B;Carlos Pellegrini;0;0;0;325;785
+D;Catedral;1;0;1;410;660
+C;Constitución;1;0;0;300;33
+A;Congreso;0;0;0;140;610
+C;Diagonal Norte;0;0;0;340;715
+E;Entre Ríos;0;0;0;110;215
+D;Facultad de medicina;1;0;1;40;920
+B;Florida;1;0;0;410;785
+C;General San Martín;0;0;0;410;950
+C;Independencia [C];0;0;0;300;347
+E;Independencia [E];1;1;0;200;347
+C;Lavalle;0;0;0;360;820
+B;Leandro N. Alem;1;0;0;474;785
+A;Lima;0;0;0;260;610
+C;Moreno;0;0;0;300;520
+A;Pasco;0;0;0;80;610
+B;Pasteur;1;0;0;52;785
+A;Perú;0;0;0;395;610
+A;Piedras;0;0;0;355;610
+E;Pichincha;0;0;0;10;215
+A;Plaza de Mayo;1;0;0;463;610
+C;Retiro;1;0;0;473;1020
+A;Sáenz Peña;0;0;0;200;610
+E;San José;0;0;0;200;215
+C;San Juan;0;0;0;300;217
+D;Tribunales;1;0;1;225;850
+B;Uruguay;1;0;1;220;785
