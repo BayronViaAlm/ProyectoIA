@@ -1,0 +1,243 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.021.000_005
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\starship\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\msys64\mingw64\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe (OK)
+Version string: 1.022.000_002 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe
+Launcher args:	-jar "C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe"
+Args length:	68/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.021.000_005
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\starship\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\msys64\mingw64\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe (OK)
+Version string: 1.022.000_002 / 64-Bit (OK)
+Main class:	src.APP.algoritmo.Main
+Add classpath:	src\JavaFX\lib\javafx-swt.jar
+Add classpath:	src\JavaFX\lib\javafx.base.jar
+Add classpath:	src\JavaFX\lib\javafx.controls.jar
+Add classpath:	src\JavaFX\lib\javafx.fxml.jar
+Add classpath:	src\JavaFX\lib\javafx.graphics.jar
+Add classpath:	src\JavaFX\lib\javafx.media.jar
+Add classpath:	src\JavaFX\lib\javafx.swing.jar
+Add classpath:	src\JavaFX\lib\javafx.web.jar
+Launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe;src\JavaFX\lib\javafx-swt.jar;src\JavaFX\lib\javafx.base.jar;src\JavaFX\lib\javafx.controls.jar;src\JavaFX\lib\javafx.fxml.jar;src\JavaFX\lib\javafx.graphics.jar;src\JavaFX\lib\javafx.media.jar;src\JavaFX\lib\javafx.swing.jar;src\JavaFX\lib\javafx.web.jar" src.APP.algoritmo.Main
+Args length:	353/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.021.000_005
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\starship\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\msys64\mingw64\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe (OK)
+Version string: 1.022.000_002 / 64-Bit (OK)
+Main class:	src.APP.algoritmo.Main
+Add classpath:	src\JavaFX\lib\javafx-swt.jar
+Add classpath:	src\JavaFX\lib\javafx.base.jar
+Add classpath:	src\JavaFX\lib\javafx.controls.jar
+Add classpath:	src\JavaFX\lib\javafx.fxml.jar
+Add classpath:	src\JavaFX\lib\javafx.graphics.jar
+Add classpath:	src\JavaFX\lib\javafx.media.jar
+Add classpath:	src\JavaFX\lib\javafx.swing.jar
+Add classpath:	src\JavaFX\lib\javafx.web.jar
+Launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe;src\JavaFX\lib\javafx-swt.jar;src\JavaFX\lib\javafx.base.jar;src\JavaFX\lib\javafx.controls.jar;src\JavaFX\lib\javafx.fxml.jar;src\JavaFX\lib\javafx.graphics.jar;src\JavaFX\lib\javafx.media.jar;src\JavaFX\lib\javafx.swing.jar;src\JavaFX\lib\javafx.web.jar" src.APP.algoritmo.Main
+Args length:	353/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\.
+Requires JDK:	Yes
+Requires 64-Bit: No
+Java min ver:	1.021.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\starship\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\msys64\mingw64\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-22\bin\javac.exe (OK)
+Version string: 1.022.000_002 / 64-Bit (OK)
+Main class:	src.APP.algoritmo.Main
+Add classpath:	src\JavaFX\lib\javafx-swt.jar
+Add classpath:	src\JavaFX\lib\javafx.base.jar
+Add classpath:	src\JavaFX\lib\javafx.controls.jar
+Add classpath:	src\JavaFX\lib\javafx.fxml.jar
+Add classpath:	src\JavaFX\lib\javafx.graphics.jar
+Add classpath:	src\JavaFX\lib\javafx.media.jar
+Add classpath:	src\JavaFX\lib\javafx.swing.jar
+Add classpath:	src\JavaFX\lib\javafx.web.jar
+Launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe;src\JavaFX\lib\javafx-swt.jar;src\JavaFX\lib\javafx.base.jar;src\JavaFX\lib\javafx.controls.jar;src\JavaFX\lib\javafx.fxml.jar;src\JavaFX\lib\javafx.graphics.jar;src\JavaFX\lib\javafx.media.jar;src\JavaFX\lib\javafx.swing.jar;src\JavaFX\lib\javafx.web.jar" src.APP.algoritmo.Main
+Args length:	353/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\.
+Requires JDK:	Yes
+Requires 64-Bit: No
+Java min ver:	1.021.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\starship\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\tomas\AppData\Local\GitHubDesktop\bin;C:\Users\tomas\AppData\Local\Programs\oh-my-posh\bin;C:\Users\tomas\AppData\Local\Muse Hub\lib;C:\Program Files\nvim\bin;C:\msys64\mingw64\bin;C:\Users\tomas\Flutter\flutter\bin;C:\Program Files\Java\jdk-22\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\starship\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\tomas\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\msys64\mingw64\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-22\bin\javac.exe (OK)
+Version string: 1.022.000_002 / 64-Bit (OK)
+Main class:	src.APP.algoritmo.Main
+Add classpath:	src\JavaFX\lib\javafx-swt.jar
+Add classpath:	src\JavaFX\lib\javafx.base.jar
+Add classpath:	src\JavaFX\lib\javafx.controls.jar
+Add classpath:	src\JavaFX\lib\javafx.fxml.jar
+Add classpath:	src\JavaFX\lib\javafx.graphics.jar
+Add classpath:	src\JavaFX\lib\javafx.media.jar
+Add classpath:	src\JavaFX\lib\javafx.swing.jar
+Add classpath:	src\JavaFX\lib\javafx.web.jar
+Launcher:	C:\Program Files\Java\jdk-22\bin\javaw.exe
+Launcher args:	--module-path src/JavaFX/lib --add-modules javafx.controls,javafx.fxml -classpath "C:\Users\tomas\Desktop\IA2\fin\ProyectoIA\SubteBuenosAire.exe;src\JavaFX\lib\javafx-swt.jar;src\JavaFX\lib\javafx.base.jar;src\JavaFX\lib\javafx.controls.jar;src\JavaFX\lib\javafx.fxml.jar;src\JavaFX\lib\javafx.graphics.jar;src\JavaFX\lib\javafx.media.jar;src\JavaFX\lib\javafx.swing.jar;src\JavaFX\lib\javafx.web.jar" src.APP.algoritmo.Main
+Args length:	424/32768 chars
+Exit code:	0
